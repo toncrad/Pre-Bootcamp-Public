@@ -1,0 +1,26 @@
+.search {
+    display: block;
+    margin: 10px;
+    color: green;
+    background-color: wheat;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.plus {
+    display: block;
+    margin: 10px;
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 50%;
+}
+
+.account {
+    display: block;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
