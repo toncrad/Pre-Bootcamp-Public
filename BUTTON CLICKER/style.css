@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.topnav {
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navitems {
+    margin-right: 20px;
+    color: black;
+    display: flex;
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    margin-left: 8px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+.container {
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 800px;
+    width: 1200px;
+    display: flex;
+}
+.column1 {
+    /* display: flex; */
+    flex-direction: column;
+    flex: 2;
+}
+.card {
+    height: 140px;
+    width: 520px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.cardbtn {
+    height: 30px;
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    color: white;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+.column2 {
+    /* display: flex; */
+    flex-direction: column;
+    flex: 1;
+}
+.buttoncard {
+    height: 120px;
+    width: 240px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border: 2px solid black;
+}
+.btn2 {
+    height: 30px;
+    width: 100px;
+    margin-top: 8px;
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+p {
+    margin-left: 4px;
+}
