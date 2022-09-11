@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="topnav">
+        <div class="navitems">
+            <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+                <li><a href="#" onclick="alert('Loading weather report....')">Burbank</a></li>
+                <li><a href="#" onclick="alert('Loading weather report....')">Chicago</a></li>
+                <li><a href="#" onclick="alert('Loading weather report....')">Dallas</a></li>
+        </div>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>San Jose show temperature in</h1>
+        <select id="temperature" onchange="myFunction()" name="&#176;C">
+            <option value="C">&#176;C</option>
+            <option value="F">&#176;F</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="sub-content">
+            <p id="day">Today</p>
+            <img class="image" src="some_rain.png" alt="some rain">
+            <p>some rain</p>
+            <div class="temp">
+                <p id="high">24&#176;</p>
+                <p id="low">18&#176;</p>
+            </div>
+        </div>
+        <div class="sub-content">
+            <p id="day">Tomorrow</p>
+            <img class="image" src="some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <div class="temp">
+                <p id="high">27&#176;</p>
+                <p id="low">19&#176;</p>
+            </div>
+        </div>
+        <div class="sub-content">
+            <p id="day">Friday</p>
+            <img class="image" src="some_clouds.png" alt="some clouds">
+            <p>some clouds</p>
+            <div class="temp">
+                <p id="high">21&#176;</p>
+                <p id="low">16&#176;</p>
+            </div>
+        </div>
+        <div class="sub-content">
+            <p id="day">Saturday</p>
+            <img class="image" src="some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <div class="temp">
+                <p id="high">26&#176;</p>
+                <p id="low">21&#176;</p>
+            </div>
+        </div>
+    </div>
+    <div class="cookies">
+        <img class="cookie" src="cookie.png" alt="cookie">
+        <h1>Stop! Cookie time</h1>
+        <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more....</a></p>
+        <button onclick="hide()" class="button">I Accept</button>
+    </div>
+</body>
+</html>
